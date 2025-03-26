@@ -130,7 +130,7 @@ def query_orders(service, initial_date):
             'OrderID,CustomerID,EmployeeID,OrderDate,RequiredDate,ShippedDate'
         ).filter(f"OrderDate gt datetime'{formatted_date}'").execute()
 
-    # Fetching the next page of results adn yielding the fetched data
+    # Fetching the next page of results and yielding the fetched data
     while True:
         yield orders
         if orders.next_url is None:
