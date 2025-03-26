@@ -327,7 +327,7 @@ class ODataClient:
 
 
     def _build_batch(self, batch):
-        """Adds the batche request to the client batch"""
+        """Adds the batch request to the client batch"""
         for batch_request in self.batch_requests:
             entity_set = batch_request['entity_set']
             query_options = batch_request['query_options']
