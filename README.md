@@ -155,6 +155,9 @@ There are several examples available under `/examples`:
   - This is an example of how to read .CSV file from Amazon S3 and validate the data. You need to provide your AWS S3 credentials for this example to work.
 - **[smartsheets](/examples/source_examples/smartsheets)**
   - This is an example of how we can sync Smartsheets sheets by using Connector SDK. You need to provide your Smartsheets api_key for this example to work.
+- **[figma](/examples/source_examples/figma)**
+  - This example demonstrates syncing projects and files from the Figma API.
+    Provide your Figma personal access token and team ID for it to work.
 - **[sql_server](/examples/source_examples/sql_server)**
   - This example uses pyodbc to connect to SQL Server for syncing data using Connector SDK. You need to provide your SQL Server credentials for this example to work.
 - **[toast](/examples/source_examples/toast)**
